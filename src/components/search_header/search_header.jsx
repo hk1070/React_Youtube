@@ -26,13 +26,13 @@ const SearchHeader = memo(({ onSearch }) => {
         ref={inputRef}
         className={styles.input}
         type='search'
-        placeholder='Search...'
+        placeholder='검색'
         onKeyPress={onKeyPress}
       />
       <button className={styles.button} type='submit' onClick={onClick}>
         <img
           className={styles.buttonImg}
-          src='/images/search.png'
+          src='/images/search_b.png'
           alt='search'
         />
       </button>

@@ -15,8 +15,7 @@
   height: 100%;
   display: flex;
   align-items: center;
-  border: 1px solid lightgray;
-  box-shadow: 3px 3px 5px 0px rgba(191, 191, 191, 0.53);
+  border-bottom: 1px solid lightgray;
   cursor: pointer;
   transition: transform 250ms ease-in;
 }
