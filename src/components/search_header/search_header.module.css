@@ -18,7 +18,8 @@
 }
 
 .input {
-  flex-basis: 100%;
+  flex-basis: 50%;
+  margin-left: 60px;
   font-size: 1.2rem;
   outline: 0;
   border: 1px solid #e5e5e5;
