@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import styles from './app.module.css';
 import SearchHeader from './components/search_header/search_header';
+import SideBar from './components/side_bar/side_bar';
 import VideoDetail from './components/video_detail/video_detail';
 import VideoList from './components/video_list/video_list';
 
@@ -32,6 +33,7 @@ function App({ youtube }) {
     <div className={styles.app}>
       <SearchHeader onSearch={search} />
       <section className={styles.content}>
+        <SideBar display={selectedVideo ? 'list' : 'grid'} />
         {selectedVideo && (
           <div className={styles.detail}>
             <VideoDetail video={selectedVideo} />
