@@ -31,7 +31,7 @@ const SideBar = ({ display }) => {
         </div>
         <div className={styles.menubox}>
           <FontAwesomeIcon icon={faClock} className={styles.icon} />
-          <span className={styles.menutext}>시청기록</span>
+          <span className={styles.menutext}>시청 기록</span>
         </div>
       </div>
     </>
